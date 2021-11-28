@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Font awesome -->
+  <script src="https://kit.fontawesome.com/6a79530112.js" crossorigin="anonymous"></script>
+  <style>
+    .datepicker-date-display {
+      background: rgb(1, 107, 42) !important;
+    }
+
+    .datepicker-table td.is-selected {
+      background: rgb(2, 77, 30) !important;
+    }
+    
+     .datepicker-table td.is-selected {
+      background:rgb(1, 90, 56) !important;
+    }
+
+    /* .picker__date-display {
+       background-color: #6d4e7a; 
+      }
+    .picker__day.picker__day--today { 
+      color: red; 
+    }
+.picker__day--selected, .picker__day--selected:hover, .picker--focused .picker__day--selected { 
+  background-color: #6d4e7a;
+} */
+/* .picker__close { color: #6d4e7a !important;}
+.picker__today { color: #6d4e7a !important;}
+.clockpicker-tick:hover { background: #6d4e7a !important; }
+.clockpicker-canvas line { stroke: #6d4e7a !important; }
+.clockpicker-canvas-bearing { fill: #6d4e7a !important; }
+.clockpicker-canvas-bg { fill: #6d4e7a !important; } */
+  </style>
+  <title>Date and Time Picker</title>
+</head>
+<body class="green darken-4">
+
+  <div class="container">
+    <h1 class="amber-text">Daily Attendance</h1>
+    <h2>IN</h2>
+    <form>
+      <div class="input-field">
+        <input type="text" class="datepicker">
+        <label for="date">Date</label>
+      </div>
+      <div class="input-field">
+        <input type="text" class="timepicker">
+        <label for="time">Time</label>
+
+        <h3>OUT</h3>
+        <div class="input-field">
+            <input type="text" class="datepicker">
+            <label for="date">Date</label>
+          </div>
+          <div class="input-field">
+            <input type="text" class="timepicker">
+            <label for="time">Time</label>
+    
+      </div>
+    </form>
+  </div>
+  
+
+
+
+  <!-- Jquery CDN -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+
+  <script>
+    $(document).ready(function() {
+      // Date Init
+      $('.datepicker').datepicker();
+      // Time Init
+      $('.timepicker').timepicker();
+    });
+
+   
+  </script>
+</body>
+</html>
