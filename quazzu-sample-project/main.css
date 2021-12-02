@@ -1,0 +1,78 @@
+.main-header {
+    background: url(background.jpg);
+    min-height: 600px;
+    background-position: center;
+    background-size: cover;
+    color: white;
+  }
+  
+  .active-link {
+    color: lightgreen;
+    font-weight: bold;
+  }
+  
+  .main-header .showcase {
+    padding-top: 100px;
+  }
+  
+  
+  .section-developers {
+    background: url(the102.jpg);
+    background-size: cover;
+    min-height: 300px;
+    background-position: center;
+    border-top: grey solid 5px;
+    border-bottom: grey solid 5px;
+    position: relative;
+  }
+  
+  .section-podcast {
+    background: url(the103.jpg);
+    background-size: cover;
+    min-height: 400px;
+    background-position: center;
+    border-top: grey solid 5px;
+    border-bottom: grey solid 5px;
+    position: relative;
+  }
+  
+  
+  .primary-overlay {
+    background: rgba(192, 192, 192)
+    position absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .section-podcast a {
+    margin-top: 20px;
+  }
+  
+  .main-header-inner {
+    background: url(background.jpg);
+    min-height: 300px;
+    background-position: center;
+    background-size: cover;
+    color:black;
+  }
+  
+  
+  .main-header-inner .showcase {
+    padding-top: 50px;
+  }
+  
+  .btn-extend {
+    display: block;
+    width: 100%;
+  }
+
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
